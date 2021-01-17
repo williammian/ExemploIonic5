@@ -14,18 +14,28 @@ export class AppComponent implements OnInit {
   public appPages = [
     {
       title: 'Navegação',
-      url: '/navegacao',
+      url: 'navegacao',
       icon: 'paper-plane'
     },
     {
       title: 'Botões',
-      url: '/botao',
+      url: 'botao',
       icon: 'construct'
     },
     {
       title: 'Alert',
-      url: '/alert',
+      url: 'alert',
       icon: 'alert'
+    },
+    {
+      title: 'Action-Sheet',
+      url: 'actionsheet',
+      icon: 'alert-circle'
+    },
+    {
+      title: 'Badge',
+      url: 'badge',
+      icon: 'text'
     }
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
