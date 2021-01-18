@@ -36,6 +36,11 @@ export class AppComponent implements OnInit {
       title: 'Badge',
       url: 'badge',
       icon: 'text'
+    },
+    {
+      title: 'Card',
+      url: 'card',
+      icon: 'card'
     }
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
