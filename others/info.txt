@@ -1,0 +1,15 @@
+ionic g page pages/exemplo
+
+npm install -g cordova
+
+ionic cordova platform add android
+
+ionic cordova prepare android
+
+ionic cordova resources android --force
+
+ionic cordova run android
+
+npm i -g native-run
+
+cordova requirements android --verbose

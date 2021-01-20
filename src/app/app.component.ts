@@ -51,6 +51,36 @@ export class AppComponent implements OnInit {
       title: 'Chip',
       url: 'chip',
       icon: 'tablet-landscape'
+    },
+    {
+      title: 'Content',
+      url: 'content',
+      icon: 'clipboard'
+    },
+    {
+      title: 'DateTime',
+      url: 'datetime',
+      icon: 'calendar'
+    },
+    {
+      title: 'Fab',
+      url: 'fab',
+      icon: 'arrow-forward'
+    },
+    {
+      title: 'Grid',
+      url: 'grid',
+      icon: 'grid'
+    },
+    {
+      title: 'InfiniteScroll',
+      url: 'infinitescroll',
+      icon: 'filter'
+    },
+    {
+      title: 'Input',
+      url: 'input',
+      icon: 'enter'
     }
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
