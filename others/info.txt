@@ -13,3 +13,29 @@ ionic cordova run android
 npm i -g native-run
 
 cordova requirements android --verbose
+
+ionic cordova emulate android --target=Pixel_3a_API_30_x86
+
+---------------------------
+
+Instalar Android Studio
+
+Variáveis de ambiente
+
+ANDROID_SDK_ROOT
+C:\Users\User\AppData\Local\Android\sdk
+
+ANDROID_HOME
+C:\Users\User\AppData\Local\Android\sdk
+
+----------------------------
+
+No Android Studio
+
+Verificar sdk
+File > Settings > Appearence & Behavior > System Settings > Android SDK
+
+Verificar Virtual Devices
+Tools > AVD Manager
+
+--------------------------
