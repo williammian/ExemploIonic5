@@ -81,6 +81,11 @@ export class AppComponent implements OnInit {
       title: 'Input',
       url: 'input',
       icon: 'enter'
+    },
+    {
+      title: 'List',
+      url: 'list',
+      icon: 'list'
     }
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
