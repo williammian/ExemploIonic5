@@ -91,6 +91,16 @@ export class AppComponent implements OnInit {
       title: 'Progress Bar',
       url: 'progressbar',
       icon: 'cellular'
+    },
+    {
+      title: 'Select',
+      url: 'select',
+      icon: 'checkmark'
+    },
+    {
+      title: 'Toggle',
+      url: 'toggle',
+      icon: 'toggle'
     }
 
   ];

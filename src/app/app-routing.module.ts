@@ -77,6 +77,14 @@ const routes: Routes = [
   {
     path: 'progressbar',
     loadChildren: () => import('./pages/progressbar/progressbar.module').then( m => m.ProgressbarPageModule)
+  },
+  {
+    path: 'select',
+    loadChildren: () => import('./pages/select/select.module').then( m => m.SelectPageModule)
+  },
+  {
+    path: 'toggle',
+    loadChildren: () => import('./pages/toggle/toggle.module').then( m => m.TogglePageModule)
   }
 
 ];
