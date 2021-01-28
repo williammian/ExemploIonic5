@@ -101,6 +101,16 @@ export class AppComponent implements OnInit {
       title: 'Reorder',
       url: 'reorder',
       icon: 'reorder-three'
+    },
+    {
+      title: 'Select',
+      url: 'select',
+      icon: 'checkmark'
+    },
+    {
+      title: 'Toggle',
+      url: 'toggle',
+      icon: 'toggle'
     }
 
   ];

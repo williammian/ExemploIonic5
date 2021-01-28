@@ -38,7 +38,8 @@ const routes: Routes = [
   {
     path: 'card',
     loadChildren: () => import('./pages/card/card.module').then( m => m.CardPageModule)
-  },  {
+  },
+  {
     path: 'checkbox',
     loadChildren: () => import('./pages/checkbox/checkbox.module').then( m => m.CheckboxPageModule)
   },
@@ -85,6 +86,14 @@ const routes: Routes = [
   {
     path: 'reorder',
     loadChildren: () => import('./pages/reorder/reorder.module').then( m => m.ReorderPageModule)
+  },
+  {
+    path: 'select',
+    loadChildren: () => import('./pages/select/select.module').then( m => m.SelectPageModule)
+  },
+  {
+    path: 'toggle',
+    loadChildren: () => import('./pages/toggle/toggle.module').then( m => m.TogglePageModule)
   }
 
 ];
