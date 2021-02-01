@@ -8,7 +8,7 @@ ionic cordova prepare android
 
 ionic cordova resources android --force
 
-ionic cordova run android
+ionic cordova run android --device
 
 npm i -g native-run
 
