@@ -126,6 +126,11 @@ export class AppComponent implements OnInit {
       title: 'Slides',
       url: 'slides',
       icon: 'albums'
+    },
+    {
+      title: 'Toast',
+      url: 'toast',
+      icon: 'chatbubble'
     }
 
   ];
