@@ -111,6 +111,21 @@ export class AppComponent implements OnInit {
       title: 'Toggle',
       url: 'toggle',
       icon: 'toggle'
+    },
+    {
+      title: 'SearchBar',
+      url: 'searchbar',
+      icon: 'search'
+    },
+    {
+      title: 'Segment',
+      url: 'segment',
+      icon: 'infinite'
+    },
+    {
+      title: 'Slides',
+      url: 'slides',
+      icon: 'albums'
     }
 
   ];

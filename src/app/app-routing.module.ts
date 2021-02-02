@@ -94,6 +94,18 @@ const routes: Routes = [
   {
     path: 'toggle',
     loadChildren: () => import('./pages/toggle/toggle.module').then( m => m.TogglePageModule)
+  },
+  {
+    path: 'searchbar',
+    loadChildren: () => import('./pages/searchbar/searchbar.module').then( m => m.SearchbarPageModule)
+  },
+  {
+    path: 'segment',
+    loadChildren: () => import('./pages/segment/segment.module').then( m => m.SegmentPageModule)
+  },
+  {
+    path: 'slides',
+    loadChildren: () => import('./pages/slides/slides.module').then( m => m.SlidesPageModule)
   }
 
 ];
