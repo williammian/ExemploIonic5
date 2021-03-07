@@ -136,6 +136,11 @@ export class AppComponent implements OnInit {
       title: 'Modal',
       url: 'modal',
       icon: 'easel'
+    },
+    {
+      title: 'Popover',
+      url: 'popover',
+      icon: 'chatbox'
     }
 
   ];
