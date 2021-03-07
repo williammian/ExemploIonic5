@@ -131,6 +131,11 @@ export class AppComponent implements OnInit {
       title: 'Toast',
       url: 'toast',
       icon: 'chatbubble'
+    },
+    {
+      title: 'Modal',
+      url: 'modal',
+      icon: 'easel'
     }
 
   ];

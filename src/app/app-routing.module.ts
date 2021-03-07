@@ -109,6 +109,10 @@ const routes: Routes = [
   },  {
     path: 'toast',
     loadChildren: () => import('./pages/toast/toast.module').then( m => m.ToastPageModule)
+  },
+  {
+    path: 'modal',
+    loadChildren: () => import('./pages/modal/modal.module').then( m => m.ModalPageModule)
   }
 
 
