@@ -146,6 +146,11 @@ export class AppComponent implements OnInit {
       title: 'Radio',
       url: 'radio',
       icon: 'disc'
+    },
+    {
+      title: 'Animação',
+      url: 'animacao',
+      icon: 'bonfire'
     }
 
   ];
