@@ -125,6 +125,10 @@ const routes: Routes = [
   {
     path: 'animacao',
     loadChildren: () => import('./pages/animacao/animacao.module').then( m => m.AnimacaoPageModule)
+  },
+  {
+    path: 'componentes-visuais',
+    loadChildren: () => import('./pages/componentes-visuais/componentes-visuais.module').then( m => m.ComponentesVisuaisPageModule)
   }
 
 
