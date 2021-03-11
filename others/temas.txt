@@ -1,0 +1,3 @@
+src/variables.scss
+
+https://ionicframework.com/docs/theming/color-generator
