@@ -13,14 +13,23 @@ export class AppComponent implements OnInit {
   public selectedIndex = 0;
   public appPages = [
     {
+      title: 'Início',
+      url: 'home',
+      icon: 'home'
+    },
+    {
       title: 'Componentes Visuais',
       url: 'componentes-visuais',
       icon: 'library'
+    },
+    {
+      title: 'Api Externa',
+      url: 'api',
+      icon: 'construct'
     }
 
   ];
-  public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
-
+  
   constructor(
     private platform: Platform,
     private splashScreen: SplashScreen,

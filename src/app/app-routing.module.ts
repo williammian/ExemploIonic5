@@ -129,6 +129,10 @@ const routes: Routes = [
   {
     path: 'componentes-visuais',
     loadChildren: () => import('./pages/componentes-visuais/componentes-visuais.module').then( m => m.ComponentesVisuaisPageModule)
+  },
+  {
+    path: 'api',
+    loadChildren: () => import('./pages/api/api.module').then( m => m.ApiPageModule)
   }
 
 
