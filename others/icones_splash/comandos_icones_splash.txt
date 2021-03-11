@@ -1,0 +1,5 @@
+ionic cordova resources android --force
+
+ionic cordova platform add android
+
+ionic cordova run android
