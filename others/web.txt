@@ -1,0 +1,9 @@
+
+ionic cordova platform add browser
+
+/platforms/browser
+
+pasta
+
+www
+
